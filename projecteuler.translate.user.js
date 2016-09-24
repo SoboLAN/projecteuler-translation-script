@@ -126,7 +126,7 @@
 // @author Radu Murzea
 // @version 1.7
 // @icon http://projecteuler.radumurzea.net/favicon.ico
-// @updateURL https://github.com/SoboLAN/projecteuler-translation-script/projecteuler.translate.user.js
+// @updateURL https://github.com/SoboLAN/projecteuler-translation-script/raw/master/projecteuler.translate.user.js
 // @include http://projecteuler.net/problem=*
 // @grant none
 // ==/UserScript== 
@@ -330,7 +330,7 @@ function insertTranslationProcessing()
     
     pscript.setAttribute('type', 'text/javascript');
     
-    pscript.setAttribute('src', 'https://github.com/SoboLAN/projecteuler-translation-script/processtranslation.js');
+    pscript.setAttribute('src', 'https://raw.githubusercontent.com/SoboLAN/projecteuler-translation-script/master/processtranslation.js');
     
     var bodyElement = document.getElementsByTagName('body')[0];
     
