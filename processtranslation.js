@@ -1,0 +1,1 @@
+function processTranslation(r){if(r.translation!=='NONE'){document.getElementsByClassName("problem_content")[0].innerHTML=r.translation;}}
