@@ -7,7 +7,7 @@ Obviously, not at all problems are available in the above mentioned languages. I
 Notes about implementation:
 
 - The technique used for implementing this is **JSONP** (JSON with padding), since AJAX wouldn't work (see Same Origin Policy).
-- The processing function (only 2 - 3 lines of code) is found in the **processtranslation.js**. That function will be executed when the response comes back.
+- The processing function (only 2 - 3 lines of code) is found in the **processtranslation.js** file. That function will be executed when the response comes back.
 - The 5 flag images are stored inside the script in Base64 format, to avoid additional HTTP requests.
 
 **LIMITATIONS**:
